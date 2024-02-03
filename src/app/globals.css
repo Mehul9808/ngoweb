@@ -1,11 +1,113 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.aboutussection{
+  background-color: #eee;
+}
+.aboutcard{
+  background-blend-mode:overlay ;
+  background-color:rgba(255, 255, 255, 0.315);
+  box-shadow: rgba(54,186,36, 0.4) -5px 5px, rgba(54,186,36, 0.3) -10px 10px, rgba(54,186,36, 0.2) -15px 15px, rgba(54,186,36, 0.1) -20px 20px, rgba(54,186,36, 0.05) -25px 25px;
+
+}
+
+
+.contactussection{
+  background-color:#d9e9f65f;
+}
+
+.faqsection{
+  background-color:#ebebeb5f;
+}
+
+[type='checkbox']{
+  color:#36BA24;
+}
+ 
+.Aboutheading{
+  color:#36BA24;
+}
+
+.headingcolor{
+  color:#36BA24;
+}
+
+.font-bold.text-xl.mb-2 {
+  color:#36BA24;
+}
+.footersection {
+  background-color:#052e16;
+  bottom:0;
+  
+}
+.footersectionlinks:hover{
+ color:#36BA24;
+}
+
+.bgcolor{
+  background-color: #36BA24;
+}
+.bgcolor:hover{
+  background-color: 	#289f19;
+}
+
+/* .registrationbgimg{
+  width:100%;
+  height:100%;
+  
+  
+} */
+
+.icon {
+  position: relative;
+  color: #fff;
+  transition: .6s;
+  z-index: 3;
+}
+
+.social_icon:hover .icon {
+  color: #fff;
+  cursor:pointer;
+  transform: rotateX(360deg);
+}
+
+
+
+.registrationpage{
+  background-blend-mode: overlay;
+  /* background-color: rgba(0, 0, 0, 0.444); */
+  background-image: linear-gradient(180deg,rgba(255, 255, 255, 0.111)  100%,  rgba(87, 143, 78, 0.274) 0%);
+  margin-left: 10%;
+  margin-right:10%;
+  margin-top:9%;
+}
+
+.dashboardbanner{
+  position:relative;
+}
+.dashboardcontainer{
+  position:absolute;
+  bottom:0;
+  transform: translateY(+20%);
+}
+.dashboardbody{
+  background-color:#F1F1F1;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,4 +126,6 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb)); */
+    font-family: system-ui, 'Dancing Script', 'Helvetica Neue';
+    font-size:18px;
 }
