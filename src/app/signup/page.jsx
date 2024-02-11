@@ -55,7 +55,7 @@ const Signup = ({ onSubmit }) => {
                 </div>
 
                 {/* <div className=" registrationpage md:container rounded-2xl   grid grid-cols-1 sm:grid-cols-2"> */}
-                <div className=" registrationpage  rounded-2xl shadow-lg grid sm:grid-cols-10">
+                <div className=" registrationpage  rounded-2xl  grid sm:grid-cols-10">
 
 
 

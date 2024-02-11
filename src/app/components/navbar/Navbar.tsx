@@ -12,7 +12,8 @@ import ngologo from "/public/Images/ngo.png";
 function Navbar() {
   const [navbar, setNavbar] = useState(false);
   return (
-    <div className="sticky top-0 bg-white z-40 backdrop-blur supports-backdrop-blur:bg-white">
+    // <div className="sticky top-0 bg-white z-40 backdrop-blur supports-backdrop-blur:bg-white">
+    <div className="sticky topnavbar top-0  z-40 ">
       <nav className="w-full left-0 right-0 ">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
