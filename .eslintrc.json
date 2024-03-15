@@ -16,9 +16,14 @@
 },
 
 
-"parser": "@babel/eslint-parser"
+"parser": "@babel/eslint-parser",
 
-}
+  "babelOptions": {
+     "presets": ["@babel/preset-react"]
+  }
+ }
+
+
 
 
   

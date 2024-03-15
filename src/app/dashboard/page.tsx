@@ -50,7 +50,7 @@ const Signup = ({ searchParams }: any) => {
                   </div>
                 </div>
               </div>
-              {/* button start */}
+            
               <div className="mt-12 dashboardbuttons flex flex-col justify-center relative overflow-hidden sm:py-1 sm:px-1">
                 <div className="max-w-7xl mx-auto">
                   <div className="relative group">
@@ -61,7 +61,6 @@ const Signup = ({ searchParams }: any) => {
                       </svg>
                       <div className="space-y-2">
                         <p className="text-slate-800">Learn how to make a glowing gradient background!</p>
-                        {/* <a href="https://braydoncoyer.dev/blog/tailwind-gradients-how-to-make-a-glowing-gradient-background" className="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank">Read Article →</a> */}
                         <div className="flex justify-end pr-10 ">
                           <Image src={uparrow} className="uparrow" alt="..." />
                         </div>
@@ -81,7 +80,6 @@ const Signup = ({ searchParams }: any) => {
                       </svg>
                       <div className="space-y-2">
                         <p className="text-slate-800">Learn how to make a glowing gradient background!</p>
-                        {/* <a href="https://braydoncoyer.dev/blog/tailwind-gradients-how-to-make-a-glowing-gradient-background" className="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank">Read Article →</a> */}
                         <div className="flex justify-end pr-10 ">
                           <Image src={uparrow} className="uparrow" alt="..." />
                         </div>
@@ -101,7 +99,6 @@ const Signup = ({ searchParams }: any) => {
                       </svg>
                       <div className="space-y-2">
                         <p className="text-slate-800">Learn how to make a glowing gradient background!</p>
-                        {/* <a href="https://braydoncoyer.dev/blog/tailwind-gradients-how-to-make-a-glowing-gradient-background" className="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank">Read Article →</a> */}
                         <div className="flex justify-end pr-10 ">
                           <Image src={uparrow} className="uparrow" alt="..." />
                         </div>
@@ -120,7 +117,6 @@ const Signup = ({ searchParams }: any) => {
                       </svg>
                       <div className="space-y-2">
                         <p className="text-slate-800">Learn how to make a glowing gradient background!</p>
-                        {/* <a href="https://braydoncoyer.dev/blog/tailwind-gradients-how-to-make-a-glowing-gradient-background" className="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank">Read Article →</a> */}
                         <div className="flex justify-end pr-10 ">
                           <Image src={uparrow} className="uparrow" alt="..." />
                         </div>
@@ -153,10 +149,7 @@ const Signup = ({ searchParams }: any) => {
                     <span><Image src={locationimg} className="pr-5" alt="..." /></span>
                     <p className=""><b>State:</b>&nbsp; <br/><span className="rounded  pr-20 py-1 border-2 shadow-lg bg-gray-300">{searchParams.state}</span></p>
                   </div>
-                  {/* <p><span className="font-semibold ">Name:&nbsp;</span>{searchParams.name}</p>
-                  <p><span className="font-semibold ">Email:&nbsp;</span>{searchParams.email}</p>
-                  <p><span className="font-semibold ">Phone No.:&nbsp;</span>{searchParams.phone}</p>
-                  <p><span className="font-semibold ">State:&nbsp;</span>{searchParams.state}</p> */}
+                 
                 </div>
                 </div>
               </div>
