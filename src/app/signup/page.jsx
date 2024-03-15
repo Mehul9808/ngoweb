@@ -21,7 +21,7 @@ const Signup = (onSubmit ) => {
     const [formData, setFormData] = useState({
         // Your form fields go here
         name: '',
-        email: '',
+        email: '', 
         phonenumber: '',
         state: '',
         // Add more fields as needed
