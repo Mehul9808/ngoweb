@@ -2,5 +2,17 @@
   "rules": {
      
      "react/no-unescaped-entities": 0 
-  }
+  },
+
+  "parserOptions": {
+    "ecmaVersion": "latest"
+},
+
+"env": {
+    "es6": true
 }
+}
+
+
+  
+
