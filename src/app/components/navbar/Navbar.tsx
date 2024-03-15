@@ -50,40 +50,41 @@ function Navbar() {
               }`}
             >
               <ul className="h-screen md:h-auto items-center justify-center md:flex ">
-                <li className="pb-6 text-xl text-black py-2 md:px-6 text-center border-b-2 md:border-b-0    border-primary  md:hover:text-primary md:hover:bg-transparent">
+                <li className="navlink  text-xl text-black py-2 md:px-6 text-center border-b-2 md:border-b-0    border-primary  md:hover:text-primary md:hover:bg-transparent">
                   <Link href="#about" onClick={() => setNavbar(!navbar)}>
                     About
+                    
                   </Link>
                 </li>
-                <li className="pb-6 text-xl text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900   md:hover:text-primary md:hover:bg-transparent">
+                <li className="navlink  text-xl text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900   md:hover:text-primary md:hover:bg-transparent">
                   <Link href="#blogs" onClick={() => setNavbar(!navbar)}>
                     Blogs
                   </Link>
                 </li>
-                <li className="pb-6 text-xl text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900   md:hover:text-primary md:hover:bg-transparent">
+                <li className="navlink  text-xl text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900   md:hover:text-primary md:hover:bg-transparent">
                   <Link href="#services" onClick={() => setNavbar(!navbar)}>
                     Services
                   </Link>
                 </li>
                
              
-                <li className="pb-6 text-xl text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900   md:hover:text-primary md:hover:bg-transparent">
+                <li className="navlink  text-xl text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900   md:hover:text-primary md:hover:bg-transparent">
                   <Link href="#contact" onClick={() => setNavbar(!navbar)}>
                     Contact
                   </Link>
                 </li>
-                <li className="pb-6 text-xl text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900   md:hover:text-primary md:hover:bg-transparent">
+                <li className="navlink  text-xl text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900   md:hover:text-primary md:hover:bg-transparent">
                   <Link href="#faq" onClick={() => setNavbar(!navbar)}>
                     FAQ
                   </Link>
 
                 </li>
-                <li className="pb-6 text-xl text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900   md:hover:text-primary md:hover:bg-transparent">
+                <li className="navlink   text-xl text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900   md:hover:text-primary md:hover:bg-transparent">
                   <Link href="login" onClick={() => setNavbar(!navbar)}>
                     Login/Signup
                   </Link>
                 </li>
-                <li className="pb-6 text-xl text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900   md:hover:text-primary md:hover:bg-transparent">
+                <li className="navlink   text-xl text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900   md:hover:text-primary md:hover:bg-transparent">
                   <Link href="dashboard" onClick={() => setNavbar(!navbar)}>
                     Dashboard
                   </Link>

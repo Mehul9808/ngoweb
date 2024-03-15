@@ -11,6 +11,8 @@ import {faFacebook} from '@fortawesome/free-brands-svg-icons'
 import {faInstagram} from '@fortawesome/free-brands-svg-icons'
 import {faXTwitter} from '@fortawesome/free-brands-svg-icons'
 import {faYoutube} from '@fortawesome/free-brands-svg-icons'
+import { FaAngleDoubleRight } from "react-icons/fa";
+
 
 const Footer = () => {
     return (
@@ -31,13 +33,32 @@ const Footer = () => {
                 <div className="w-full  md:w-1/3 mb-4 md:mb-0 md:px-20 ">
                     <h3 className=" text-white  font-semibold mb-2">Quick Links</h3>
                     <ul className="footersectionlinks">
+                        <div className="flex footersectionlinkss">
+                       <span className="align-middle pt-1 pr-1"><FaAngleDoubleRight /></span> 
                         <li className="text-[color:white] mb-1"><Link href="#about" className="footersectionlinks">About</Link></li>
+                        </div>
+                        <div className="flex footersectionlinkss">
+                        <span className="align-middle pt-1 pr-1"><FaAngleDoubleRight /></span>
                         <li className="text-[color:white] mb-1"><Link href="#blogs" className="footersectionlinks">Blogs</Link></li>
+                        </div>
+                        <div className="flex footersectionlinkss">
+                        <span className="align-middle pt-1 pr-1"><FaAngleDoubleRight /></span>
                         <li className="text-[color:white] mb-1"><Link href="#services" className="footersectionlinks">Services</Link></li>
-                        <li className="text-[color:white] mb-1"><Link href="/login" className="footersectionlinks">Login</Link></li>
-                        <li className="text-[color:white] mb-1"><Link href="/registration" className="footersectionlinks">Registration</Link></li>
-                        <li className="text-[color:white] mb-1"><Link href="#contact" className="footersectionlinks">Contact Us</Link></li>
+                        </div>
 
+                        <div className="flex footersectionlinkss">
+                        <span className="align-middle pt-1 pr-1"><FaAngleDoubleRight /></span>
+                        <li className="text-[color:white] mb-1"><Link href="/login" className="footersectionlinks">Login</Link></li>
+                        </div>
+
+                        <div className="flex footersectionlinkss">
+                        <span className="align-middle pt-1 pr-1"><FaAngleDoubleRight /></span>
+                        <li className="text-[color:white] mb-1"><Link href="#contact" className="footersectionlinks">Contact Us</Link></li>
+                        </div>
+                        <div className="flex footersectionlinkss">
+                        <span className="align-middle pt-1 pr-1"><FaAngleDoubleRight /></span>    
+                        <li className="text-[color:white] mb-1"><Link href="/registration" className="footersectionlinks">Registration</Link></li>
+                        </div>
 
                         {/* Add more links as needed */}
                     </ul>
